@@ -3,15 +3,18 @@
 }
 
 .index {
-
+	background: grey;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .about{
-
+	background: lightgrey;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .newsletter{
-	
+	background: lightcyan;
+	font-family: "Copperplate", fantasy;
 }
 
 h1{
@@ -20,6 +23,18 @@ h1{
 
 header .navList{
 	list-style: none;
+}
+
+.navList{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.listItem{
+	margin: 0 20px;
 }
 
 .card{
@@ -76,4 +91,13 @@ header .navList{
 .gridContact > *:nth-child(6){
 	grid-area: f;
 	background: darkcyan;
+}
+
+table{
+	border: 3px solid black;
+}
+
+table td{
+	border: 1px solid black;
+	padding: 30px;
 }
