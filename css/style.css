@@ -10,11 +10,13 @@
 .about{
 	background: lightgrey;
 	font-family: Arial, Helvetica, sans-serif;
+	min-width: 333px;
 }
 
 .newsletter{
 	background: lightcyan;
 	font-family: "Copperplate", fantasy;
+	min-width: 300px;
 }
 
 .index img{
@@ -39,6 +41,16 @@ header .navList{
 
 .listItem{
 	margin: 0 20px;
+	
+}
+
+.listItem a{
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+.index .listItem:hover{
+	transform: scale(0.95)
 }
 
 .card{
@@ -58,7 +70,8 @@ header .navList{
 .flexNews .card{
 	display: inline-block;
 	margin: 10px;
-	width: 250px;
+	max-width: 250px;
+	max-height: 250px;
 }
 
 .gridContact{
@@ -145,5 +158,11 @@ table td{
 	}
 	.gridContact > *:nth-child(6){
 		grid-column: 1;
+	}
+
+	.flexNews .card{
+
+		min-width: 250px;
+		
 	}
 }
