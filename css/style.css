@@ -3,5 +3,59 @@
 }
 
 body{
-	
+
+}
+
+h1{
+	text-align: center;
+}
+
+header .navList{
+	list-style: none;
+}
+
+.card{
+	display: inline-block;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+	padding: 10px;
+	max-height: 250px;
+}
+
+.flexNews{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.flexNews .card{
+	display: inline-block;
+	margin: 0 10px;
+	width: 250px;
+}
+
+.gridContact{
+	display: grid;
+	grid-template-columns: 30px 60px;
+	grid-template-rows: 20px 50px 30px;
+	grid-template-areas: "2 1" "3 4" "6 5";
+}
+
+.gridContact > *:nth-child(1){
+	grid-area: 1;
+}
+.gridContact > *:nth-child(1){
+	grid-area: 1;
+}
+.gridContact > *:nth-child(1){
+	grid-area: 1;
+}
+.gridContact > *:nth-child(1){
+	grid-area: 1;
+}
+.gridContact > *:nth-child(1){
+	grid-area: 1;
+}
+.gridContact > *:nth-child(1){
+	grid-area: 1;
 }
