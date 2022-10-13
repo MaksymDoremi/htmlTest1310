@@ -55,8 +55,12 @@ header .navList{
 	text-decoration: none;
 }
 
-.index .listItem:hover{
+.listItem:hover{
 	transform: scale(0.95)
+}
+
+.newsletter .listItem a{
+	color: black;
 }
 
 .card{
