@@ -5,6 +5,12 @@
 .index {
 	background: grey;
 	font-family: "Lucida Console", "Courier New", monospace;
+	min-width: 410px;
+	text-align: center;
+}
+
+table{
+	margin: auto;
 }
 
 .about{
@@ -59,6 +65,11 @@ header .navList{
 	border-radius: 10px;
 	padding: 10px;
 	max-height: 250px;
+}
+
+.index p{
+	width: 49%;
+	min-width: 377px;
 }
 
 .flexNews{
@@ -133,6 +144,12 @@ table td{
 	}
 	
 }
+@media (max-width: 820px){
+	.index p{
+		width: 100%;
+	}
+}
+
 
 @media (max-width: 607px){
 	.gridContact{
